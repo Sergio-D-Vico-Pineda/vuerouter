@@ -13,6 +13,7 @@
          </div>
       </div>
    </div>
+   <router-link to="/">Volver a inicio</router-link>
 </template>
  
 
@@ -35,8 +36,5 @@ export default {
          }
       },
    },
-
-
 }
-
 </script>

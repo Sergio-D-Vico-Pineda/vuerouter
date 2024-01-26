@@ -30,4 +30,5 @@
          </li>
       </ul>
    </div>
+   <router-link to="/">Volver a inicio</router-link>
 </template>
