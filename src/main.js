@@ -1,4 +1,10 @@
-import { createApp } from 'vue'
+import 'tailwindcss/tailwind.css'
+import './styles.css'
+import
+{
+    createApp
+}
+from 'vue'
 import App from './App.vue'
 import router from './router'
 
