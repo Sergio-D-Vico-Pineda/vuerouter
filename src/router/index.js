@@ -29,6 +29,20 @@ const routes = [
     path: '/youtube',
     name: 'youtube',
     component: () => import('../views/YoutubeView.vue')
+},
+{
+    path: '/pokedex/:name',
+    pathMatch: 'prefix',
+    props: false,
+    component: () => import('../views/Pokedex.vue')
+},
+{
+    path: '/:catchAll(.*)',
+    meta:
+    {
+        title: 'Not Found'
+    },
+    component: () => import('../views/NotFound.vue')
 }]
 
 const router = createRouter(
