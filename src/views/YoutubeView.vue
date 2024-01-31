@@ -20,6 +20,9 @@
 <script>
 import YoutubeLogo from '../components/YoutubeLogo.vue'
 export default {
+   setup() {
+      document.title = "Youtube Search";
+   },
    name: 'YoutubeView',
    components: {
       YoutubeLogo

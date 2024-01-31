@@ -9,6 +9,9 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
+   setup() {
+      document.title = "Home";
+   },
    name: 'HomeView',
    components: {
       HelloWorld

@@ -32,3 +32,11 @@
    </div>
    <router-link to="/">Volver a inicio</router-link>
 </template>
+
+<script>
+export default {
+   setup() {
+      document.title = "About";
+   }
+}
+</script>

@@ -22,6 +22,9 @@
  
 <script>
 export default {
+   setup() {
+      document.title = "Google Search";
+   },
    name: 'BuscadorGoogle',
    data() {
       return {
