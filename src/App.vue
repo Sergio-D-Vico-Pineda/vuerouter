@@ -3,7 +3,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/google">Google</router-link> |
       <router-link to="/youtube">Youtube</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/pokedex/1">Pokedex</router-link>
    </nav>
    <router-view />
 </template>
