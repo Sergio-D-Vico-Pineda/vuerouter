@@ -25,11 +25,10 @@ import { useRoute, useRouter } from 'vue-router'
 
 export default {
    setup() {
-      const route = useRoute();
-      const router = useRouter();
+      const route = useRoute(), router = useRouter();
 
       document.title = 'Pokedex'
-      let num = route.params.name ?? 1;
+      let num = route.params.name == "" ? 1 : route.params.name;
       let srcimg = ref(`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${num}.png`)
 
       function next() {

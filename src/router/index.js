@@ -31,9 +31,8 @@ const routes = [
     component: () => import('../views/YoutubeView.vue')
 },
 {
-    path: '/pokedex/:name',
+    path: '/pokedex/:name?',
     pathMatch: 'prefix',
-    props: false,
     component: () => import('../views/Pokedex.vue')
 },
 {
